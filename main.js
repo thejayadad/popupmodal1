@@ -1,12 +1,13 @@
-let btn=document.getElementById("button");
-let modal=document.querySelector(".modal_box");
-let closeBtn=document.querySelector(".close_btn");
 
-btn.addEventListener("click",function(){
+let open=document.getElementById("open");
+let modal=document.getElementById("modal");
+let close=document.getElementById("close");
+
+open.addEventListener("click",function(){
     modal.style.display="block";
 })
 
-closeBtn.addEventListener("click",function(){
+close.addEventListener("click",function(){
     modal.style.display="none";
 })
 
